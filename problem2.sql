@@ -1,0 +1,1 @@
+SELECT * from books where price = (SELECT max(price) from books);
